@@ -1,3 +1,24 @@
+spring:
+  profiles: 8001
+server:
+  port: 8001
+---
+spring:
+  profiles: 8002
+server:
+  port: 8002
+---
+spring:
+  profiles: 8003
+server:
+  port: 8003
+---
+spring:
+  profiles: 8004
+server:
+  port: 8004
+---
+
 server:
   port: 8000
 spring:
